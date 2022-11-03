@@ -1,0 +1,11 @@
+0 read r1
+1 read r2
+2 read r3
+3 setn r4 -5
+4 mul r4 r4 r1
+5 mul r4 r4 r1
+6 mul r3 r3 r1
+7 add r4 r4 r3
+8 add r4 r4 r2
+9 write r4
+10 halt
